@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style1.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h2>Welcome to JGJ</h2>
+            <h3>Tell us about yourself</h3>
+        </div>
+        <div class="main-content">
+            <form class="form" action="">
+                <input type="text" placeholder="Name" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+                <input type="text" placeholder="last-Name" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+                <input type="text" placeholder="City of residence">
+                <input type="email" placeholder="email" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$" required>
+                <input type="text" placeholder="Previous job">
+                <input type="number" placeholder="How long have you been working there">
+                <input type="text" placeholder="Job position you are seeking" required>
+                <input type="text" placeholder="Previous experience:">
+                <input type="text" placeholder="Availability:" required>
+                <button class="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
