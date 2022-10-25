@@ -127,4 +127,13 @@ body{
     .form-label{
         width: 50%; 
     }
+    .title>*{
+        margin: 0.5rem;
+    }
+    .title h2{
+        font-size: 2rem;
+    }
+    .title h3{
+        font-size: 1.5rem;
+    }
 }
