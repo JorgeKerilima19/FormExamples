@@ -13,7 +13,7 @@
             <h2>Welcome to JGJ</h2>
             <h3>Tell us about yourself</h3>
         </div>
-        <form action="https://formsubmit.co/your@email.com" method="POST" class="form" autocomplete="off">
+        <form action="https://formsubmit.co/kumarsinghvivek79@gmail.com" method="POST" class="form" autocomplete="off">
             <input type="text" class="form-input" name="name" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
             <label for="" class="form-label">Name</label>
             <input type="text" class="form-input" name="last-name" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
@@ -34,16 +34,18 @@
             <label for="" class="form-label">Last Job</label>
             <select name="working-time" id="" class="form-input" required>
                 <option value="">Last job working time</option>
-                <option value="1">Less than a year</option>
-                <option value="2">1-3 years</option>
-                <option value="3">more than years</option>
+                <option value="less than a year">Less than a year</option>
+                <option value="1-3 years">1-3 years</option>
+                <option value="more than years">more than years</option>
             </select>
             <select name="availability" id="" class="form-input" required>
                 <option value="">Availability</option>
-                <option value="1">Right Away</option>
-                <option value="2">Less than a week</option>
-                <option value="3">More than a week</option>
+                <option value="Right Away">Right Away</option>
+                <option value="Less than a week">Less than a week</option>
+                <option value="More than a week">More than a week</option>
             </select>
+            <input type="hidden" name="_next" value="http/...">
+            <input type="hidden" name="captcha" value="false">
             <button class="submit">Submit</button>
         </form>
     </div>
